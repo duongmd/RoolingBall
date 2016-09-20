@@ -12,6 +12,7 @@
 		3FE6F9B51D8FC912007C713B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6F9B31D8FC912007C713B /* Main.storyboard */; };
 		3FE6F9B71D8FC912007C713B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6F9B61D8FC912007C713B /* Assets.xcassets */; };
 		3FE6F9BA1D8FC912007C713B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6F9B81D8FC912007C713B /* LaunchScreen.storyboard */; };
+		3FE6F9C21D8FC946007C713B /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6F9C11D8FC946007C713B /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3FE6F9B61D8FC912007C713B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE6F9B91D8FC912007C713B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE6F9BB1D8FC912007C713B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE6F9C11D8FC946007C713B /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3FE6F9AE1D8FC912007C713B /* RunningBall */ = {
 			isa = PBXGroup;
 			children = (
+				3FE6F9C11D8FC946007C713B /* ball.png */,
 				3FE6F9AF1D8FC912007C713B /* AppDelegate.swift */,
 				3FE6F9B11D8FC912007C713B /* ViewController.swift */,
 				3FE6F9B31D8FC912007C713B /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					3FE6F9AB1D8FC912007C713B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -124,6 +128,7 @@
 			files = (
 				3FE6F9BA1D8FC912007C713B /* LaunchScreen.storyboard in Resources */,
 				3FE6F9B71D8FC912007C713B /* Assets.xcassets in Resources */,
+				3FE6F9C21D8FC946007C713B /* ball.png in Resources */,
 				3FE6F9B51D8FC912007C713B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dmd.RunningBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dmd.RunningBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +293,7 @@
 				3FE6F9C01D8FC912007C713B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
